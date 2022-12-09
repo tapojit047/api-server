@@ -44,7 +44,7 @@ type Credential struct {
 ```
 ---
 ## Installation
-* `go install github.com/tapojit047/learning-go/api-server/`
+* `go install [github.com/tapojit047/learning-go/api-server/](https://github.com/tapojit047/api-server/)`
 ---
 ## Authentication Method
 * Basic Authentication

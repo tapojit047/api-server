@@ -1,16 +1,16 @@
-# API server using GO
+# Book API server using GO
 
 ### RESTful API using [go](https://github.com/golang), [cobra CLI](https://github.com/spf13/cobra), [go-chi/chi](https://github.com/go-chi/chi), Basic Auth
 --- 
 ## API Endpoints
 | Endpoint            | Function | Method | StatusCode | Auth  |
 |---------------------|---| ------ | ---------- |-------|
-| `/api/login`        | Login | POST | Success - 200, Failure - 401 | Basic |
-| `/api/books`        | GetBooks | GET | Success - 200, Failure - 401 | Basic |
-| `/api/books`        | AddBook | POST | Success - 200, Failure - 401, 409 | JWT   |
-| `/api/books/{id}`   | UpdateBook | PUT | Success - 200, Failure - 401, 404 | JWT   |
-| `/api/books/{id}`   | DeleteBook | DELETE | Success - 200, Failure - 401, 404 | JWT   |
-| `/api/books/{id}`   | GetBookById  | GET | Success - 200, Failure - 401 | JWT   |
+| `/api/login`        | Login | POST | Success - 200, Failure - 401 | N/A |
+| `/api/books`        | GetBooks | GET | Success - 200, Failure - 401 | N/A |
+| `/api/books`        | AddBook | POST | Success - 200, Failure - 401, 409 | Basic   |
+| `/api/books/{id}`   | UpdateBook | PUT | Success - 200, Failure - 401, 404 | Basic   |
+| `/api/books/{id}`   | DeleteBook | DELETE | Success - 200, Failure - 401, 404 | Basic   |
+| `/api/books/{id}`   | GetBookById  | GET | Success - 200, Failure - 401 | Basic   |
 
 ---
 ## Data Model

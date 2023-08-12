@@ -47,7 +47,6 @@ type Credential struct {
 ---
 ## Authentication Method
 * Basic Authentication
-* JWT Authentication
 ---
 Resources:
 * [sysdevbd learn GO](https://github.com/sysdevbd/sysdevbd.github.io/tree/master/go)

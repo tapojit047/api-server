@@ -1,7 +1,6 @@
 # API server using GO
 
-### RESTful API using [go](https://github.com/golang), [cobra CLI](https://github.com/spf13/cobra), [go-chi/chi](https://github.com/go-chi/chi), Basic Auth, [JWT Auth](https://github.com/dgrijalva/jwt-go)
-
+### RESTful API using [go](https://github.com/golang), [cobra CLI](https://github.com/spf13/cobra), [go-chi/chi](https://github.com/go-chi/chi), Basic Auth
 --- 
 ## API Endpoints
 | Endpoint            | Function | Method | StatusCode | Auth  |
